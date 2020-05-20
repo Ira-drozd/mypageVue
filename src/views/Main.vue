@@ -14,10 +14,6 @@
 
         </div>
 
-
-
-
-
             <div class="main-content__profile-photo main-content__profile-photo_style">
                 <div class="main-content__photo main-content__photo_style">
                     <svg width="113" height="67" viewBox="0 0 113 67" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -86,31 +82,19 @@
     let tabs = [
         {
             name: "About",
-            icon:"fas fa-user-alt",
-            component: {
-                template: "<div>Home component</div>"
-            }
+            icon:"fas fa-user-alt"
         },
         {
             name: "Resume",
-            icon:"fas fa-file-contract",
-            component: {
-                template: "<div>Posts component</div>"
-            }
+            icon:"fas fa-file-contract"
         },
         {
             name: "Works",
-            icon:"fas fa-paint-brush",
-            component: {
-                template: "<div>Archive<p>dsd</p> component</div>"
-            }
+            icon:"fas fa-paint-brush"
         },
         {
             name: "Contact",
-            icon:"fas fa-at",
-            component: {
-                template: "<div>Posts component</div>"
-            }
+            icon:"fas fa-at"
         }
     ];
 

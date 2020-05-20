@@ -1,0 +1,96 @@
+@import "variable";
+
+//button
+
+.burger-open {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.burger-open_style {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+
+  i {
+    color: $main-gray-dark;
+  }
+}
+
+
+.burger-menu__burger-clause {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  //  position: absolute;
+}
+
+.burger-menu__burger-clause_style {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+
+  i {
+    // color: $main-gray;
+    color: $dark-white;
+  }
+}
+
+//panel
+
+.burger-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  height: 100%;
+  // flex-basis: 150px;
+}
+
+
+.burger-menu_style {
+  background: $main-gray-dark;
+}
+
+.burger-menu__burger-items {
+  list-style: none;
+}
+
+.burger-menu__burger-item_style {
+
+  a {
+    text-decoration: none;
+    display: inline-block;
+    width: 270px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: $main-white;
+    font-weight: bold;
+    font-size: 1.2rem;
+
+    &:hover {
+      i {
+        color: $main-red;
+        transition: color 500ms;
+      }
+    }
+  }
+
+  i {
+    color: $dark-white;
+    margin-right: 10px;
+  }
+
+
+}
+
+//active page
+
+.burger-menu__burger-item_active {
+  i {
+    color: $main-red;
+  }
+}
